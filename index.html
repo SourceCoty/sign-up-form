@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="con1" id="image">
+            <img src="game.png" alt="">
+        </div>
+        <div class="con2">
+            <div class="subcon1">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <form action="">
+                <div class="subcon2">
+                    <p>Let's do this!</p>
+                    <fieldset>
+                        <div class="set">
+                            <label for="first-name">FIRST NAME</label>
+                            <input id="first-name" type="text" placeholder="Mike"/>
+                        </div>
+                        <div class="set">
+                            <label for="last-name">LAST NAME</label>
+                            <input id="last-name" type="text" placeholder="Jones"/>
+                        </div>
+                        <div class="set">
+                            <label for="email">EMAIL</label>
+                            <input id="email" type="email" placeholder="mikejones@example.com"/> 
+                        </div>
+                        <div class="set">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input id="phone" type="tel" placeholder="(281)334-8004" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$"/>
+                        </div>
+                        <div class="set">
+                            <label for="password">PASSWORD</label>
+                            <input id="password" type="password"/>
+                        </div>
+                        <div class="set">
+                            <label for="confirm">CONFIRM PASSWORD</label>
+                            <input id="confirm" type="password"/>
+                        </div>
+                     </fieldset>
+                </div>
+                <div class="subcon3">
+                    <div class="button">
+                        <button type="submit">Create Account</button>
+                    </div>
+                    <div class="log-in">Already have an account? <strong style="color: #4d4de0;">Log in</strong></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
